@@ -11,7 +11,7 @@ public class Main {
         Fraction f2 = new Fraction(3, 4);
         Names n1 = new Names("Fraction 2");
         f2.setName(n1);
-        
+
 
 
         System.out.println("hello world");
@@ -81,6 +81,26 @@ public class Main {
         char c = 'p';
         Main.specificCharCount(s2, c);
 
+        //did not work, kinda useless
+        //System.out.println("Shows how we can use 2 numbers and while one counts the other is being powered by that number");
+        int k = 10;
+        int j = 2;
+        //doubleInteger(k);
+
+        //fill an array with even numbers
+        int[] ray = new int[20];
+        for(int i = 0; i < ray.length; i ++)
+        {
+            if(i % 2 == 0)
+            {
+                ray[i] = i*2;
+            }
+        }
+        System.out.println(ray);
+
+
+
+
 
 
 
@@ -109,6 +129,16 @@ public class Main {
         {
             System.out.println(name1.charAt(i));
         }
+    }
+
+    static void doubleInteger(int a)
+    {
+        int b = 0;
+        for(int i = 0; i < a; i++)
+        {
+            b = (b*2) + b;
+        }
+        System.out.println(b);
     }
 
 
