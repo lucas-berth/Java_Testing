@@ -45,6 +45,8 @@ public class Main {
         String s1 = "over there";
         String s2 = "apple";
         String s3 = "banana";
+        String s4 = new String("banana");
+        System.out.println(s3 == s4);
 
         System.out.println("Character count");
         int counta = 0;
