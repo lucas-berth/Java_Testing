@@ -36,6 +36,7 @@ public class Main {
 
         String a = "apple";
         String b = "apple";
+        
         System.out.println(a.toUpperCase());
         if(a == b)
         {
@@ -97,6 +98,15 @@ public class Main {
             }
         }
         System.out.println(ray);
+
+        System.out.println("--------------------------");
+        System.out.println("Working with Chars");
+        char c1 = 'c';
+        char c2 = 'B';
+        char charU = Character.toUpperCase(c1);
+        char charL = Character.toLowerCase(c2);
+        System.out.println(charU);
+        System.out.println(charL);
 
 
 
